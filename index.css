@@ -4,6 +4,12 @@
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+.marked {
+    background-color: #101010;
+}
+.marked:hover {
+    background-color: #101010;
+}
 /* nav ul {
     background-color: #202020;
     display: flex;
@@ -78,10 +84,9 @@ nav a:hover {
     margin: 5px;
     height: 80vh;
     display: flex;
-    border: 2px solid pink;
     width: 80%;
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -100,10 +105,11 @@ nav a:hover {
 }
 .general-info button{
     font-size: 3.5vh;
-    width: 30%;
     list-style-type: none;
     background-color: rgb(151, 55, 0);
-    padding: 10px;
+    padding: 12px 100px;
+    margin: 10px;
+    border: 0;
 }
 
 .info > * {
@@ -113,5 +119,16 @@ nav a:hover {
 .space {
     width: 100%;
     height: 100vh;
-    z-index: -3;
+    position: static;
+    /* background-color: blue; */
+}
+
+.qr-code {
+    width: 100%;
+    text-align: center;
+}
+
+.qr-code h2 {
+    font-size: 35px;
+    margin: 5px;
 }
