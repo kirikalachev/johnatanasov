@@ -4,6 +4,7 @@
     color: white;
     font-family: "Fira Sans", sans-serif;
 }
+<<<<<<< HEAD
 .marked {
     background-color: #101010;
 }
@@ -24,6 +25,11 @@ nav a {
     margin: 0;
     padding: 0;
     color: white;
+=======
+
+.bg {
+    background-color: rgba(14, 14, 14, 0.9);
+>>>>>>> 7d3fa846d78788ebed194b7593f2da0aacc89eba
 }
 
 nav {
