@@ -4,6 +4,12 @@
     color: white;
     font-family: "Fira Sans", sans-serif;
 }
+.marked {
+    background-color: #101010;
+}
+.marked:hover {
+    background-color: #101010;
+}
 /* nav ul {
     background-color: #202020;
     display: flex;
@@ -13,31 +19,23 @@
 nav a {
     padding: 20px;
 } */
-.bg {
-    background-color: rgba(14, 14, 14, 0.9);
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
-.container{
-    display:flex;
-    justify-content:start;
-    gap:10px;
-    align-items: center;
-    flex-direction: column;
-}
-.navbar {
-    background-color: #333;
-    position: fixed;
-    top:0;
-    width:100%;
+nav {
+    background-color: #333; /* Dark background for the navbar */
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type: none; /* Remove default bullet points */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     display: flex; /* Display list items in a row */
     justify-content: space-between; /* Distribute space between items */
-    align-items: center;
 }
 
 nav li {
@@ -58,74 +56,6 @@ nav a:hover {
     background-color: #555;
 }
 
-
-.bg-video {
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -2;
-}
-body {
-    background-color: black;
-}
-
-.bg {
-    background-color: rgba(14, 14, 14, 0.9);
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1; 
-}
-
-/* general info */
-
-.general-info {
-    margin: 5px;
-    height: 80vh;
-    display: flex;
-    border: 2px solid pink;
-    width: 80%;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.general-info > * {
-    flex: 1;
-}
-.general-info div {
-    color: rgb(255, 205, 205);
-}
-.general-info  h1{
-    font-size: 15vh;
-}
-.general-info p {
-    font-size: 3vh;
-}
-.general-info button{
-    font-size: 3.5vh;
-    width: 30%;
-    list-style-type: none;
-    background-color: rgb(151, 55, 0);
-    padding: 10px;
-}
-
-.info > * {
-    margin: 0 10px;
-}
-
-.space {
-    width: 100%;
-    height: 100vh;
-    z-index: -3;
-}
 
 
 
