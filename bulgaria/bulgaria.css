@@ -16,6 +16,8 @@
     width:100%;
 }
 
+nav {padding:0;}
+
 nav ul {
     list-style-type: none;
     margin: 0; /* Remove default margin */
@@ -57,7 +59,7 @@ img {
     height: 80vh;
 }
 div {
-    color: rgb(255, 205, 205);
+    color: rgb(255, 255, 255);
     width: 50%;
     padding: 20vh;
 }
