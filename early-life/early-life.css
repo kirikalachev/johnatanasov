@@ -1,3 +1,44 @@
+nav {
+    background-color: #333; /* Dark background for the navbar */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display list items in a row */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+nav li {
+    flex-grow: 1; /* Allow list items to grow and take up space */
+    text-align: center; /* Center the text in each list item */
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 20px; 
+    display: block; 
+    transition: background-color 0.3s; 
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
 .text {
-    width: 75%;
+    width: 35%;
+}
+
+.image {
+    border-radius: 10%;
+    border: 2.5px solid transparent;
+    border-color: grey;
+    /* float: right;
+    overflow: auto;
+    margin-left: 20px; */
+    
 }
