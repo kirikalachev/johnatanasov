@@ -17,16 +17,27 @@ nav a {
     background-color: rgba(14, 14, 14, 0.9);
 }
 
-nav {
-    background-color: #333; /* Dark background for the navbar */
+.container{
+    display:flex;
+    justify-content:start;
+    gap:10px;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar {
+    background-color: #333;
+    position: fixed;
+    top:0;
+    width:100%;
 }
 
 nav ul {
-    list-style-type: none; /* Remove default bullet points */
+    list-style-type: none;
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
     display: flex; /* Display list items in a row */
     justify-content: space-between; /* Distribute space between items */
+    align-items: center;
 }
 
 nav li {
