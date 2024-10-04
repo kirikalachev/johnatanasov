@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* nav ul {
+    background-color: #202020;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    padding: 20px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav {
+    background-color: #333; /* Dark background for the navbar */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display list items in a row */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+nav li {
+    flex-grow: 1; /* Allow list items to grow and take up space */
+    text-align: center; /* Center the text in each list item */
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 20px; 
+    display: block; 
+    transition: background-color 0.3s; 
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+.bg-video {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+
+.bg {
+    background-color: rgba(14, 14, 14, 0.9);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; 
+}
+
+/* general info */
+
+.general-info {
+    margin: 5px;
+    height: 80vh;
+    display: flex;
+    border: 2px solid pink;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.general-info > * {
+    flex: 1;
+}
+.general-info div {
+    color: rgb(255, 205, 205);
+}
+.general-info  h1{
+    font-size: 15vh;
+}
+.general-info p {
+    font-size: 3vh;
+}
+.general-info button{
+    font-size: 3.5vh;
+    width: 30%;
+    list-style-type: none;
+    background-color: rgb(151, 55, 0);
+    padding: 10px;
+}
+
+.info > * {
+    margin: 0 10px;
+}
+
+.space {
+    width: 100%;
+    height: 100vh;
+    z-index: -3;
+}
