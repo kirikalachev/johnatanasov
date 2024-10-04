@@ -2,6 +2,35 @@
     margin: 0;
     padding: 0;
 }
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display list items in a row */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+nav li {
+    flex-grow: 1; /* Allow list items to grow and take up space */
+    text-align: center; /* Center the text in each list item */
+}
+
+nav a {
+    color: white; 
+    text-decoration: none; 
+    padding: 20px; 
+    display: block; 
+    transition: background-color 0.3s; 
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
 body {
     display: flex;
     align-items: center;
@@ -11,9 +40,9 @@ body {
     background-color: rgb(27, 0, 0);
 }
 img {
-    margin-left: 10vh;
+    margin-left: 15vh;
     padding: 5vh;
-    width: 50vh;
+    width: 60vh;
     height: 80vh;
 }
 div {
@@ -22,7 +51,7 @@ div {
     padding: 20vh;
 }
 h1{
-    font-size: 15vh;
+    font-size: 10vh;
 }
 ul{
     font-size: 4vh;
