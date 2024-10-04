@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
+.marked {
+    background-color: #101010;
+}
+.marked:hover {
+    background-color: #101010;
+}
+
 nav {
     background-color: #333;
 }
