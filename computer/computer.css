@@ -4,32 +4,9 @@
     color: white;
     font-family: "Fira Sans", sans-serif;
 }
-<<<<<<< HEAD
-.marked {
-    background-color: #101010;
-}
-.marked:hover {
-    background-color: #101010;
-}
-/* nav ul {
-    background-color: #202020;
-    display: flex;
-    justify-content: space-between;
-}
-
-nav a {
-    padding: 20px;
-} */
-
-* {
-    margin: 0;
-    padding: 0;
-    color: white;
-=======
 
 .bg {
-    background-color: rgba(14, 14, 14, 0.9);
->>>>>>> 7d3fa846d78788ebed194b7593f2da0aacc89eba
+    background-color: black;
 }
 
 nav {
@@ -70,6 +47,7 @@ nav a:hover {
     font-size: 20px;
     margin-top: 90px;
     margin-left: 40px;
+    color: black;
 }
 
 .right-image {
