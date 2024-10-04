@@ -71,3 +71,30 @@ nav a:hover {
     transform: translate(-50%, -50%);
     z-index: -1; 
 }
+
+/* general info */
+
+.general-info img {
+    margin: 5px;
+    height: 80vh;
+    display: flex;
+}
+.general-info div {
+    color: rgb(255, 205, 205);
+    width: 50%;
+    padding: 20vh;
+}
+.general-info  h1{
+    font-size: 15vh;
+}
+.general-info p {
+    font-size: 3vh;
+}
+.general-info li{
+    font-size: 3.5vh;
+    height: 2vh;
+    width: 7vh;
+    list-style-type: none;
+    background-color: rgb(151, 55, 0);
+    padding: 5vh;
+}
