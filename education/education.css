@@ -42,6 +42,9 @@ nav a {
 nav a:hover {
     background-color: #555;
 }
+
+nav {padding:0;}
+
 body {
     display: flex;
     align-items: center;
@@ -53,20 +56,22 @@ body {
 img {
     margin-left: 15vh;
     padding: 5vh;
+    padding-top: 7vh;
     width: 60vh;
     height: 80vh;
 }
-.container2 {
-    color: rgb(255, 205, 205);
+div {
+    color: rgb(255, 255, 255);
     width: 50%;
     padding: 20vh;
 }
 h1{
-    font-size: 5vh;
+    padding-top: 10vh;
+    font-size: 8vh;
     font-family: "Fira Sans", sans-serif;
 }
 ul{
-    font-size: 2vh;
+    font-size: 3vh;
     font-family: "Fira Sans", sans-serif;
 }
 li{

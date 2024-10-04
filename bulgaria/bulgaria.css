@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+nav {padding:0;}
+
 .container{
     display:flex;
     justify-content:start;
@@ -53,16 +55,18 @@ body {
 img {
     margin-left: 15vh;
     padding: 5vh;
+    padding-top: 7vh;
     width: 60vh;
     height: 80vh;
 }
 div {
-    color: rgb(255, 205, 205);
+    color: rgb(255, 255, 255);
     width: 50%;
     padding: 20vh;
 }
 h1{
-    font-size: 10vh;
+    padding-top: 7vh;
+    font-size: 9vh;
     font-family: "Fira Sans", sans-serif;
 }
 ul{
