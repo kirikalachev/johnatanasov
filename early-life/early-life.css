@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
 }
+
 
 .marked {
     background-color: #101010;
@@ -68,6 +71,7 @@ nav a:hover {
     align-items: center;
     font-size: 7vh;
     color: white;
+    margin-top: 20px;
 }
 
 
@@ -76,6 +80,7 @@ nav a:hover {
     margin-left: 150px;
     font-size: 18px;
     color: white;
+    margin-top: 30px;
 }
 
 .left-image {
@@ -83,7 +88,7 @@ nav a:hover {
     border: 2.5px solid transparent;
     border-color: white;
     width: 30%;
-    margin-left: 250px;
+    margin-left: 260px;
     
 }
 
@@ -93,6 +98,7 @@ nav a:hover {
     margin-left: 80px;
     margin-bottom: 30px; 
     color: white;
+    margin-top: 30px;
 }
 
 .right-image {
@@ -101,7 +107,7 @@ nav a:hover {
     border: 2.5px solid transparent;
     border-color: white; 
     width: 28%;
-    margin-left: 220px;
+    margin-left: 260px;
 }
 
 
